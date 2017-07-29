@@ -30,6 +30,7 @@ export default class BookDetail extends Component {
                     navigation={navigation}
                     title={navigation.state.params.title}
                 />
+                {/* 加载网页 */}
                 <WebView
                     source={{uri:navigation.state.params.url}}
                 />
