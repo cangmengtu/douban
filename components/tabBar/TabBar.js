@@ -3,6 +3,7 @@ import BookHome from '../books/BookHome';
 import MovieList from '../movies/MovieList';
 
 const TabBar = TabNavigator({
+    // 这里可以用中文
     图书: { screen: BookHome },
     电影: {
         screen: MovieList,
